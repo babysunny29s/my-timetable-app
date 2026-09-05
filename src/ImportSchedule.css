@@ -1,0 +1,206 @@
+.import-panel {
+  padding: 16px 14px 28px;
+}
+
+.import-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.import-header h2 {
+  margin: 0 0 6px;
+  font-size: 22px;
+  font-weight: 800;
+  color: #3f2a18;
+}
+
+.import-header p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #8a6f55;
+  line-height: 1.4;
+}
+
+.import-back {
+  flex-shrink: 0;
+  border: 1px solid #e2d3bb;
+  background: #fffdf8;
+  color: #6b4428;
+  border-radius: 10px;
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.import-form label {
+  display: block;
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #5a3a22;
+}
+
+.import-form input[type="file"],
+.import-form input[type="text"] {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 11px 12px;
+  border: 1px solid #ddceb3;
+  border-radius: 10px;
+  background: #fffefa;
+  font-size: 14px;
+  color: #3f2a18;
+}
+
+.import-form input[type="file"] {
+  padding: 10px;
+}
+
+.import-analyze,
+.import-save {
+  width: 100%;
+  margin-top: 4px;
+  padding: 13px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #f5a23a, #e88820);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.import-analyze:disabled,
+.import-save:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.import-alert {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.import-alert.error {
+  background: #fdeceb;
+  border: 1px solid #e8b4ae;
+  color: #a33d32;
+}
+
+.import-alert.warn {
+  background: #fff6e0;
+  border: 1px solid #e6d2a7;
+  color: #7a5530;
+}
+
+.import-alert ul {
+  margin: 6px 0 0;
+  padding-left: 18px;
+}
+
+.import-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #7a5530;
+}
+
+.import-meta span {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #f3e6d0;
+}
+
+.import-review {
+  margin-top: 16px;
+}
+
+.import-review-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #5a3a22;
+}
+
+.import-review-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.import-review-actions button {
+  border: 1px solid #e2d3bb;
+  background: #fffdf8;
+  border-radius: 8px;
+  padding: 5px 8px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #6b4428;
+  cursor: pointer;
+}
+
+.import-table-wrap {
+  overflow: auto;
+  max-height: 360px;
+  border: 1px solid #e6d5b6;
+  border-radius: 12px;
+  background: #fffdf8;
+}
+
+.import-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.import-table th,
+.import-table td {
+  padding: 8px 6px;
+  border-bottom: 1px solid #efe3cf;
+  text-align: left;
+  vertical-align: top;
+}
+
+.import-table th {
+  position: sticky;
+  top: 0;
+  background: #f7ecda;
+  font-weight: 800;
+  color: #5a3a22;
+  z-index: 1;
+}
+
+.import-table tr.dimmed {
+  opacity: 0.45;
+}
+
+.import-subject {
+  font-weight: 800;
+  color: #3f2a18;
+}
+
+.import-note {
+  margin-top: 2px;
+  font-size: 11px;
+  color: #8a6f55;
+  font-weight: 600;
+}
+
+.import-save {
+  margin-top: 12px;
+}
